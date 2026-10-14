@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W4FRPSCQ');</script>
+<!-- End Google Tag Manager -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>حلقه طلایی پویان | کارگزاری پویان</title>
@@ -63,7 +70,7 @@ label.l{font-size:13px;font-weight:700}
 .btn.ghost:hover{border-color:var(--navy)}
 .link-btn{min-height:44px;border:none;background:none;color:var(--navy);font-size:13px;font-weight:700;padding:0}
 .row{display:flex;justify-content:space-between;align-items:center;gap:8px}
-.muted{font-size:13px;color:var(--muted)}
+.muted{font-size:13.5px;color:var(--muted)}
 .note{display:flex;gap:10px;align-items:flex-start;background:var(--teal-bg);border-radius:14px;padding:12px 14px;font-size:13px;line-height:1.8}
 .note svg{flex-shrink:0;margin-top:2px}
 
@@ -76,12 +83,20 @@ label.l{font-size:13px;font-weight:700}
 .choice{display:flex;flex-direction:column;gap:10px}
 .opt{display:flex;align-items:center;gap:14px;width:100%;text-align:right;border:1.5px solid var(--line);border-radius:18px;background:#fff;padding:16px;color:var(--navy);transition:border-color .15s,box-shadow .15s}
 .opt:hover{border-color:var(--teal);box-shadow:0 6px 18px rgba(0,194,179,.14)}
-.opt.primary{background:linear-gradient(140deg,#0D2A5B,#0B4A78);color:#fff;border-color:transparent}
+.opt.primary{background:linear-gradient(140deg,#0D2A5B,#0B4A78);color:#fff;border-color:transparent;min-height:104px;padding:20px 18px;border-radius:22px;box-shadow:0 0 0 3px rgba(243,210,122,.55),0 14px 30px rgba(13,42,91,.35)}
+.opt.primary:hover{box-shadow:0 0 0 3px #F3D27A,0 18px 36px rgba(13,42,91,.42);transform:translateY(-1px)}
+.opt.primary{gap:12px}
+.opt.primary b{font-size:16px;font-weight:900}
+.opt.primary .ic{width:46px;height:46px}
+@media (min-width:960px){.opt.primary{gap:16px}.opt.primary b{font-size:18px}.opt.primary .ic{width:54px;height:54px}}
 .opt .ic{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:var(--teal-bg)}
 .opt.primary .ic{background:rgba(255,255,255,.14)}
 .opt b{display:block;font-size:15px;font-weight:800;line-height:1.6}
 .opt small{display:block;font-size:12.5px;line-height:1.7;opacity:.85}
-.badge-100{margin-inline-start:auto;flex-shrink:0;background:var(--gold);color:#3D2A05;font-weight:900;font-size:13px;border-radius:10px;padding:6px 10px}
+.badge-100{margin-inline-start:auto;flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:68px;padding:8px 8px;border-radius:16px;background:linear-gradient(160deg,#FFF1C2 0%,#F3D27A 45%,#D9A23A 100%);color:#3D2A05;box-shadow:0 6px 16px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.7);animation:pulse 2.2s ease-in-out infinite}
+.opt .badge-100 b{font-size:26px;font-weight:900;line-height:1.1;display:block}
+.opt .badge-100 small{font-size:11.5px;font-weight:800;opacity:1}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
 
 /* contract */
 .contract-link{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:14px;font-weight:800;color:#0A6B8A;text-decoration:none;border-bottom:1.5px dashed rgba(10,107,138,.5)}
@@ -98,9 +113,9 @@ label.l{font-size:13px;font-weight:700}
 .hello{display:flex;gap:12px;align-items:center}
 .hello .ok{width:44px;height:44px;border-radius:50%;background:var(--teal-bg);display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .hello h2{font-size:18px;font-weight:900}
-.score{background:linear-gradient(140deg,#0D2A5B,#0B4A78);color:#fff;border-radius:18px;padding:18px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.score small{display:block;font-size:12px;color:#C9DBEA}
-.score strong{display:block;font-size:34px;font-weight:900;line-height:1.3}
+.score{background:linear-gradient(140deg,#0D2A5B,#0B4A78);color:#fff;border-radius:20px;padding:22px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.score small{display:block;font-size:16px;font-weight:700;color:#E3EEF8}
+.score strong{display:block;font-size:52px;font-weight:900;line-height:1.25;color:#F3D27A}
 .score .coin{flex-shrink:0}
 .upsell{display:flex;align-items:center;gap:12px;background:var(--gold-bg);border:1px solid #F0D894;border-radius:16px;padding:12px 14px}
 .upsell p{margin:0;font-size:13px;line-height:1.7;color:var(--gold-dark);flex:1}
@@ -116,12 +131,12 @@ label.l{font-size:13px;font-weight:700}
 .linkbox button{min-width:84px;border:1.5px solid var(--line);border-radius:12px;background:#fff;color:var(--navy);font-size:13px;font-weight:800}
 .share{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 .share a{min-height:46px;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;font-size:13px;font-weight:700}
-.divider{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted)}
+.divider{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted)}
 .divider::before,.divider::after{content:"";flex:1;height:1px;background:var(--line)}
 .inv-list{display:flex;flex-direction:column;gap:8px;list-style:none;margin:0;padding:0}
 .inv-list li{display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid #E3EAF2;border-radius:14px;padding:12px 14px}
 .inv-list .num{font-size:14px;font-weight:700;direction:ltr;text-align:right}
-.tag{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;padding:2px 8px;margin-top:4px}
+.tag{display:inline-block;font-size:12px;font-weight:700;border-radius:6px;padding:2px 8px;margin-top:4px}
 .tag.sent{color:#3A4A66;background:#E8EEF6}
 .tag.half{color:var(--gold-dark);background:#FFF1CC}
 .tag.full{color:var(--teal-dark);background:#DDF6F3}
@@ -134,7 +149,7 @@ label.l{font-size:13px;font-weight:700}
 .step{display:flex;gap:14px;align-items:center;background:#fff;border-radius:16px;padding:14px 16px}
 .step .n{width:40px;height:40px;border-radius:12px;background:#E8EEF6;display:flex;align-items:center;justify-content:center;font-weight:900;flex-shrink:0}
 .step b{display:block;font-size:15px;font-weight:800}
-.step span.d{display:block;font-size:13px;color:var(--muted);line-height:1.7}
+.step span.d{display:block;font-size:14px;color:var(--muted);line-height:1.7}
 .step .p{margin-inline-start:auto;font-size:15px;font-weight:900;color:var(--teal-dark);white-space:nowrap}
 .hint{margin:0;font-size:13px;color:var(--muted);line-height:1.9;background:#fff;border-radius:14px;padding:12px 16px}
 /* hero prizes */
@@ -150,15 +165,15 @@ label.l{font-size:13px;font-weight:700}
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 @keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
-.hp-label{font-size:12px;font-weight:700;color:#F3D27A;letter-spacing:.2px}
+.hp-label{font-size:13px;font-weight:700;color:#F3D27A;letter-spacing:.2px}
 .hp-title{font-size:19px;font-weight:900;line-height:1.4;background:linear-gradient(180deg,#FFF6D6 0%,#F3D27A 60%,#E2B04A 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero-subs{list-style:none;margin:6px 0 0;padding:0;width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .hero-subs li{position:relative;background:rgba(6,22,52,.45);border:1px solid rgba(243,210,122,.6);border-radius:14px;padding:16px 4px 8px;display:flex;flex-direction:column;align-items:center;gap:0}
-.hero-subs b{font-size:19px;font-weight:900;color:#F3D27A;line-height:1.4}
+.hero-subs b{font-size:clamp(14px,4vw,17px);font-weight:900;color:#F3D27A;line-height:1.5;white-space:nowrap}
+.hs-name{font-size:15px;font-weight:800;color:#FFFFFF;line-height:1.6;margin-top:2px}
 .hs-ic{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;margin-bottom:2px;
   background:radial-gradient(circle at 35% 30%,rgba(255,241,194,.35),rgba(226,176,74,.12));box-shadow:inset 0 0 0 1px rgba(243,210,122,.55)}
 .hs-ic svg{width:17px;height:17px;fill:none;stroke:#F3D27A;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
-.hero-subs li>span:last-child{font-size:12px;font-weight:500;line-height:1.6;color:#FFFFFF}
 .hs-badge{position:absolute;top:-11px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:12px;font-weight:800;color:var(--navy);background:#FFFFFF;border-radius:99px;padding:3px 12px;box-shadow:0 3px 10px rgba(5,20,50,.35)}
 
 /* prizes section */
@@ -166,9 +181,8 @@ label.l{font-size:13px;font-weight:700}
 .win-chip{font-size:12px;font-weight:800;color:#3D2A05;background:linear-gradient(135deg,#FBE3A0,#E2B04A);border-radius:99px;padding:5px 12px}
 .pz-main{position:relative;overflow:hidden;border-radius:24px;padding:22px 20px;display:flex;align-items:center;gap:16px;
   background:linear-gradient(135deg,#FFF1C2 0%,#F3D27A 40%,#D9A23A 75%,#B07D1E 100%);color:#3D2A05;box-shadow:0 16px 34px rgba(176,125,30,.35)}
-.pz-main::after{content:"";position:absolute;top:0;bottom:0;width:60px;left:-80px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.6),transparent);transform:skewX(-20deg);animation:shine 3.5s ease-in-out infinite}
 @keyframes shine{0%,60%{left:-80px}100%{left:110%}}
-.pz-ribbon{position:absolute;top:14px;left:-34px;transform:rotate(-45deg);background:var(--navy);color:#fff;font-size:11px;font-weight:800;padding:4px 40px}
+.pz-ribbon{position:absolute;top:14px;left:-34px;transform:rotate(-45deg);background:var(--navy);color:#fff;font-size:12px;font-weight:800;padding:4px 40px}
 .pz-coin{width:112px;height:112px;flex-shrink:0;filter:drop-shadow(0 8px 14px rgba(110,70,10,.4))}
 .pz-main-txt strong{display:block;font-size:24px;font-weight:900;line-height:1.45}
 .pz-main-txt .pz-count{display:inline-block;margin-top:8px;background:var(--navy);color:#fff}
@@ -192,10 +206,17 @@ label.l{font-size:13px;font-weight:700}
 .pz-navy .pz-txt span{color:#D6E6F2}
 .pz-navy .pz-count{background:var(--teal);color:var(--navy)}
 .faq-wrap{background:none!important;border-radius:0!important;overflow:visible!important}
-.faq .faq-toggle{min-height:52px;justify-content:center;gap:8px;background:transparent;border:1.5px solid var(--line);border-radius:14px;font-size:14px;font-weight:700;color:var(--muted)}
-.faq .faq-toggle::after{content:"";width:9px;height:9px;border:solid currentColor;border-width:0 2px 2px 0;transform:rotate(45deg) translateY(-3px);font-size:0}
-.faq .faq-wrap[open]>.faq-toggle::after{transform:rotate(-135deg) translateY(-2px)}
-.faq .faq-toggle:hover{border-color:var(--navy);color:var(--navy)}
+.faq .faq-toggle{min-height:68px;justify-content:flex-start;gap:14px;padding:12px 16px;background:#fff;border:1.5px solid #C9D6E6;border-radius:18px;color:var(--navy);box-shadow:0 6px 18px rgba(13,42,91,.08);transition:border-color .15s,box-shadow .15s,transform .15s}
+.faq .faq-toggle::after{display:none}
+.faq .faq-toggle:hover{border-color:var(--teal);box-shadow:0 10px 24px rgba(0,194,179,.18);transform:translateY(-1px)}
+.fq-ic{width:42px;height:42px;border-radius:12px;background:var(--grad);color:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:900;flex-shrink:0}
+.fq-txt{display:flex;flex-direction:column;flex:1;text-align:right}
+.fq-txt b{font-size:16px;font-weight:900}
+.fq-txt small{font-size:13px;font-weight:500;color:var(--muted)}
+.fq-chev{width:36px;height:36px;border-radius:50%;background:var(--teal-bg);flex-shrink:0;position:relative;transition:transform .2s}
+.fq-chev::before{content:"";position:absolute;left:50%;top:50%;width:9px;height:9px;border:solid var(--teal-dark);border-width:0 2.5px 2.5px 0;transform:translate(-50%,-70%) rotate(45deg)}
+.faq .faq-wrap[open] .fq-chev{transform:rotate(180deg)}
+.faq .faq-wrap[open]>.faq-toggle .fq-txt small{visibility:hidden}
 .faq-list{display:flex;flex-direction:column;gap:10px;margin-top:12px}
 .faq-list details{background:#fff;border-radius:16px;overflow:hidden}
 .faq summary{list-style:none;min-height:56px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;font-size:14px;font-weight:800;line-height:1.7;cursor:pointer}
@@ -203,7 +224,7 @@ label.l{font-size:13px;font-weight:700}
 .faq-list summary::after{content:"+";font-size:22px;font-weight:500;color:var(--navy);flex-shrink:0;transition:transform .2s}
 .faq-list details[open] summary::after{transform:rotate(45deg);color:#0A6B8A}
 .faq details p{margin:0;padding:0 16px 16px;font-size:13px;line-height:2;color:#2B3D5C}
-.rules{margin:0;font-size:12px;line-height:2.1;color:var(--muted);padding-inline-start:18px}
+.rules{margin:0;font-size:13px;line-height:2.1;color:var(--muted);padding-inline-start:18px}
 .foot{margin-top:32px;background:var(--navy);color:#fff;padding:28px 20px 36px;display:flex;flex-direction:column;gap:18px;align-items:center;text-align:center}
 .social{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
 .social a{min-width:92px;height:48px;border-radius:14px;padding:0 14px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;gap:8px;color:#fff;text-decoration:none;font-size:13px;font-weight:700;transition:background .15s}
@@ -216,7 +237,7 @@ label.l{font-size:13px;font-weight:700}
 .step-hl{border:1.5px solid #F0D894;background:var(--gold-bg)}
 .step-hl .n{background:linear-gradient(135deg,#FBE3A0,#E2B04A);color:#3D2A05}
 .step-hl .p{color:#8A5F10}
-.foot .meta{display:flex;flex-direction:column;gap:4px;font-size:12px;color:#C9DBEA;line-height:1.9}
+.foot .meta{display:flex;flex-direction:column;gap:4px;font-size:13px;color:#C9DBEA;line-height:1.9}
 .foot .meta a{color:#fff;font-weight:700}
 .foot .meta a.tel{color:#C9DBEA;font-weight:400;text-decoration:none}
 
@@ -232,9 +253,100 @@ label.l{font-size:13px;font-weight:700}
 @keyframes flash{0%{background:#DDF6F3;border-color:var(--teal)}100%{background:#fff}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 .coin-img{border-radius:50%;background:url(data:image/webp;base64,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) center/cover no-repeat;box-shadow:0 0 0 2px rgba(255,236,170,.55),0 8px 18px rgba(0,0,0,.35)}
+
+/* points extras */
+.note{display:flex;gap:10px;align-items:flex-start;background:#EEF3F8;border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.note p{margin:0;font-size:13px;line-height:1.9;color:#2B3D5C}
+.note svg{flex-shrink:0;margin-top:3px}
+
+/* ================= desktop ================= */
+@media (min-width:960px){
+  .wrap{max-width:none}
+  .top{padding:12px max(32px,calc((100vw - 1160px)/2))}
+  .brand-mark{width:46px}.brand-word{height:26px}
+  .stage{display:grid;grid-template-columns:520px minmax(0,1fr);gap:64px;align-items:center;
+    padding:56px max(32px,calc((100vw - 1160px)/2)) 64px;
+    background:linear-gradient(150deg,#0D2A5B 0%,#0B4A78 55%,#00C2B3 130%)}
+  .hero{background:none;padding:0;align-items:stretch;text-align:right;gap:22px}
+  .hero h1{line-height:1.45}
+  .hero-prize{padding:16px 22px;max-width:560px}
+  .hp-coin{width:92px;height:92px}
+  .hp-title{font-size:26px}
+  .hero-subs{max-width:560px;gap:12px}
+  .hero-subs li{padding:20px 8px 12px}
+  .hero-subs b{font-size:22px}
+  .hs-name{font-size:17px}
+  .card{order:-1;margin:0;align-self:center;padding:40px 40px 36px;border-radius:28px;gap:18px;
+    box-shadow:0 0 0 6px rgba(243,210,122,.35),0 30px 70px rgba(3,15,40,.5)}
+  .card::before{content:"";position:absolute;top:0;right:40px;left:40px;height:5px;border-radius:0 0 6px 6px;background:linear-gradient(90deg,#E2B04A,#FBE3A0,#E2B04A)}
+  .card h2{font-size:26px}
+  .card p.lead{font-size:15.5px}
+  .card label.l{font-size:14px}
+  .card .field{height:60px;font-size:21px}
+  .card .field.otp{height:64px;font-size:28px}
+  .card .btn{height:60px;font-size:18px}
+  .hero h1{font-size:40px}
+  .hero h1 .gold-text{font-size:46px}
+  .duo{display:block;max-width:1160px;margin:0 auto;padding:16px 32px 0}
+  .duo .sec{padding:44px 0 0}
+  .how{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+  .how h2,.how .hint{grid-column:1/-1}
+  .how .step{flex-direction:column;align-items:flex-start;gap:10px;padding:18px;position:relative;height:100%}
+  .how .step .p{position:absolute;top:18px;left:18px;margin:0;font-size:18px}
+  .prizes-sec{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+  .prizes-sec>h2,.prizes-sec>p,.prizes-sec>.pz-main{grid-column:1/-1}
+  .pz-main{padding:26px 32px;justify-content:center}
+  .pz{flex-direction:column;align-items:flex-start;padding:20px}
+  .pz .pz-count{align-self:flex-start}
+  .sec h2{font-size:24px}
+  .faq,#rules{max-width:1160px;margin:0 auto;width:100%;padding-inline:32px}
+  .faq .faq-toggle{max-width:520px;margin:0 auto}
+  .faq-list{display:grid;grid-template-columns:1fr 1fr;align-items:start}
+  .foot{margin-top:48px;flex-direction:row;flex-wrap:wrap;justify-content:space-between;text-align:right;padding:28px max(32px,calc((100vw - 1160px)/2))}
+  .foot .meta{flex-direction:row;gap:20px;align-items:center}
+  .toast{bottom:32px}
+}
+@media (min-width:1280px){ .hero h1{font-size:44px} .hero h1 .gold-text{font-size:50px} }
+.warn{display:flex;gap:10px;align-items:flex-start;background:var(--gold-bg);border:1px solid #F0D894;border-radius:14px;padding:12px 14px}
+.warn p{margin:0;font-size:13px;line-height:1.9;color:#5A410C}
+.warn svg{flex-shrink:0;margin-top:2px}
+.sms-left{font-size:12px;font-weight:700;color:var(--teal-dark);background:var(--teal-bg);border-radius:99px;padding:3px 10px;white-space:nowrap}
+.sms-left.none{color:var(--danger);background:#FDECEA}
+.inv-form .field:disabled,.inv-form .btn:disabled{opacity:.5;cursor:not-allowed}
+
+/* ---- ChatGPT round: dashboard ---- */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.score{flex-direction:column;align-items:stretch;gap:14px;position:relative}
+.score-top{display:flex;align-items:center;justify-content:space-between;gap:12px;position:relative}
+.score-break{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;border-top:1px solid rgba(255,255,255,.15);padding-top:12px}
+.score-break span{display:flex;flex-direction:column;gap:2px}
+.score-break i{font-style:normal;font-size:12.5px;color:#C9DBEA}
+.score-break b{font-size:17px;font-weight:900;color:#fff}
+.score-num{display:flex;align-items:center;gap:12px}
+.gain{font-size:22px;font-weight:900;color:#7CF3E6;opacity:0;transform:translateY(8px)}
+.gain.show{animation:gain 1.8s ease forwards}
+@keyframes gain{0%{opacity:0;transform:translateY(8px)}20%{opacity:1;transform:translateY(0)}80%{opacity:1}100%{opacity:0;transform:translateY(-14px)}}
+.invite-box{border:2px solid var(--teal);border-radius:20px;padding:18px 16px;background:linear-gradient(180deg,#F2FCFB,#FFFFFF);display:flex;flex-direction:column;gap:10px;box-shadow:0 10px 26px rgba(0,194,179,.15)}
+.inv-title{margin:0;font-size:19px;font-weight:900;color:var(--navy)}
+.inv-sub{margin:0;font-size:14px;line-height:1.8;color:#2B3D5C}
+.invite-box .inv-form{flex-direction:column}
+.invite-box .inv-form .field{flex:none;height:54px}
+.invite-box .inv-form .btn{width:100%;background:#00A99C;color:#fff;font-weight:900;padding:0 16px}
+@media (min-width:960px){.invite-box .inv-form{flex-direction:row}.invite-box .inv-form .field{flex:1}.invite-box .inv-form .btn{width:auto}}
+.invite-box .inv-form .btn:hover{background:#00968A}
+.sent-ok{display:flex;gap:10px;align-items:flex-start;background:#DDF6F3;border-radius:12px;padding:10px 12px}
+.sent-ok p{margin:0;font-size:13.5px;line-height:1.8;color:var(--teal-dark)}
+.sent-ok svg{flex-shrink:0;margin-top:2px}
+.warn-line{display:flex;gap:8px;align-items:center;margin:0;font-size:13px;color:#5A410C}
+.warn-line svg{width:18px;height:18px;flex-shrink:0}
+.tag.half{color:#6B4E10;background:#FFF1CC}
 </style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W4FRPSCQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="wrap">
 
 <header class="top">
@@ -245,6 +357,7 @@ label.l{font-size:13px;font-weight:700}
   <div id="topAction"></div>
 </header>
 
+<div class="stage">
 <section class="hero">
   <h1>دوستاتو دعوت کن،<br><span class="gold-text">سکه بهار آزادی</span> ببر</h1>
 
@@ -260,20 +373,31 @@ label.l{font-size:13px;font-weight:700}
   <ul class="hero-subs" aria-label="جوایز دیگر">
     <li><span class="hs-badge">۱۰۰ برنده</span>
       <i class="hs-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 19.5h19l-2.6-6.5H5.1z"/><path d="M7 13l1.6-5h6.8L17 13"/><path d="M12 3.2v1.6M17.6 4.6l-1 1.2M6.4 4.6l1 1.2"/></svg></i>
-      <b>۱۰۰۰</b><span>میلی‌گرم طلا</span></li>
+      <span class="hs-name">طلا</span><b>۱۰۰۰ میلی‌گرم</b></li>
     <li><span class="hs-badge">۱۰ برنده</span>
       <i class="hs-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12.6V4.5a1 1 0 0 1 1-1h8.1l8 8a1.5 1.5 0 0 1 0 2.1l-7 7a1.5 1.5 0 0 1-2.1 0z"/><circle cx="8.2" cy="8.2" r="1.4"/><path d="M10.5 15.5l5-5"/></svg></i>
-      <b>۱۰۰٪</b><span>تخفیف کارمزد سالانه</span></li>
+      <span class="hs-name">تخفیف کارمزد</span><b>۱۰۰٪ یک‌ساله</b></li>
     <li><span class="hs-badge">۱۰ برنده</span>
       <i class="hs-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5.5-5.5 4 4L21 7"/><path d="M15 7h6v6"/></svg></i>
-      <b>۱ میلیارد</b><span>اعتبار خرید</span></li>
+      <span class="hs-name">اعتبار خرید</span><b>۱۰ میلیارد</b></li>
   </ul>
 </section>
 
 <main class="card" id="app" aria-live="polite"></main>
+</div>
+
+<div class="duo">
+
+<section class="sec how">
+  <h2>چطور امتیاز بگیرم؟</h2>
+  <div class="step step-hl"><span class="n">۱</span><div><b>افتتاح حساب</b><span class="d">ثبت‌نام خودت را کامل کن.</span></div><span class="p">+۱۰۰</span></div>
+  <div class="step"><span class="n">۲</span><div><b>دعوت دوست</b><span class="d">دوستت شماره‌اش را تایید کند.</span></div><span class="p">+۱۰</span></div>
+  <div class="step"><span class="n">۳</span><div><b>ثبت‌نام کامل دوست</b><span class="d">امتیاز تکمیلی وقتی ثبت‌نامش کامل شود.</span></div><span class="p">+۵۰</span></div>
+  <p class="hint" style="text-align:center"><b>هر امتیاز، یک شانس قرعه‌کشی است.</b></p>
+</section>
 
 <section class="sec prizes-sec" id="prizes">
-  <h2>جوایز کمپین</h2>
+  <h2>جوایز قرعه‌کشی</h2>
   <p class="muted" style="margin:-4px 0 0">مهلت شرکت: ۱ تا ۳۰ آبان · قرعه‌کشی تا یک هفته پس از پایان کمپین</p>
 
   <article class="pz-main">
@@ -299,30 +423,26 @@ label.l{font-size:13px;font-weight:700}
 
   <article class="pz pz-navy">
     <div class="pz-ic"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/><path d="M7 15h4"/></svg></div>
-    <div class="pz-txt"><b class="pz-val">۱ <small>میلیارد</small></b><span>اعتبار خرید سهام</span></div>
+    <div class="pz-txt"><b class="pz-val">۱۰ <small>میلیارد</small></b><span>اعتبار خرید سهام</span></div>
     <span class="pz-count">۱۰ برنده</span>
   </article>
 
   <p class="hint" style="text-align:center"><b>هر امتیاز = یک شانس برای همه جوایز.</b> امتیاز بیشتر، شانس بیشتر!</p>
 </section>
 
-<section class="sec">
-  <h2>چطور امتیاز بگیرم؟</h2>
-  <div class="step step-hl"><span class="n">۱</span><div><b>افتتاح حساب در پویان</b><span class="d">اگر هنوز مشتری پویان نیستی، ثبت‌نامت را آنلاین کامل کن.</span></div><span class="p">+۱۰۰</span></div>
-  <div class="step"><span class="n">۲</span><div><b>دعوت موفق</b><span class="d">دوستت با لینک وارد شود و شماره‌اش را تایید کند.</span></div><span class="p">+۱۰</span></div>
-  <div class="step"><span class="n">۳</span><div><b>افتتاح حساب دوستت</b><span class="d">وقتی ثبت‌نامش در کارگزاری کامل شود.</span></div><span class="p">+۲۰</span></div>
-  <p class="hint">هر امتیاز = یک شانس قرعه‌کشی. هر دعوت کامل ۳۰ امتیاز دارد و سقفی برای تعداد دعوت نیست.</p>
-</section>
 
+</div>
 
 <section class="sec faq" id="faq">
   <details class="faq-wrap">
-    <summary class="faq-toggle"><span>سوالات متداول</span></summary>
+    <summary class="faq-toggle"><span class="fq-ic" aria-hidden="true">؟</span><span class="fq-txt"><b>سوالات متداول</b><small>برای دیدن پاسخ‌ها بزن</small></span><span class="fq-chev" aria-hidden="true"></span></summary>
     <div class="faq-list">
   <details><summary>چه کسانی می‌توانند در کمپین شرکت کنند؟</summary><p>همه می‌توانند در این کمپین شرکت کنند. مشتریان کارگزاری پویان پس از ورود، مستقیم به صفحه دعوت می‌روند. اگر هنوز مشتری پویان نیستی، می‌توانی دوستانت را دعوت کنی یا با تکمیل ثبت‌نام، ۱۰۰ امتیاز هدیه بگیری.</p></details>
-  <details><summary>امتیاز چطور محاسبه می‌شود؟</summary><p>هر بار که دوستت با لینک دعوت تو وارد شود و شماره‌اش را تایید کند، ۱۰ امتیاز می‌گیری. اگر ثبت‌نام او در کارگزاری کامل شود، ۲۰ امتیاز دیگر هم می‌گیری. اگر خودت هنوز مشتری پویان نیستی، با تکمیل ثبت‌نام ۱۰۰ امتیاز هدیه دریافت می‌کنی. هر امتیاز یک شانس در قرعه‌کشی به حساب می‌آید.</p></details>
-  <details><summary>چطور دوستانم را دعوت کنم؟</summary><p>در صفحه دعوت، شماره موبایل دوستت را وارد کن تا پیامک دعوت برایش ارسال شود. لینک اختصاصی‌ات را هم می‌توانی از طریق واتس‌اپ یا تلگرام برایش بفرستی.</p></details>
-  <details><summary>سقفی برای تعداد دعوت وجود دارد؟</summary><p>خیر، هیچ سقفی وجود ندارد. امتیاز همه کسانی که دعوت می‌کنی برایت محاسبه می‌شود.</p></details>
+  <details><summary>امتیاز چطور محاسبه می‌شود؟</summary><p>هر بار که دوستت با لینک دعوت تو وارد شود و شماره‌اش را تایید کند، ۱۰ امتیاز می‌گیری. وقتی ثبت‌نام او در کارگزاری کامل شود، ۵۰ امتیاز دیگر هم می‌گیری. اگر خودت هنوز مشتری پویان نیستی، با تکمیل ثبت‌نام ۱۰۰ امتیاز هدیه دریافت می‌کنی. هر امتیاز یک شانس در قرعه‌کشی به حساب می‌آید.</p></details>
+  <details><summary>امتیازم را کجا ببینم؟</summary><p>هر وقت خواستی، به همین صفحه بیا و با شماره موبایلت وارد شو. امتیاز تو و وضعیت همه دوستانی که دعوت کرده‌ای همین‌جا نمایش داده می‌شود. لینک این صفحه در پیامک کمپین هم هست.</p></details>
+  <details><summary>چطور دوستانم را دعوت کنم؟</summary><p>در صفحه دعوت، شماره موبایل دوستت را وارد کن تا پیامک دعوت برایش ارسال شود. لینک اختصاصی‌ات را هم می‌توانی کپی کنی و برایش بفرستی.</p></details>
+  <details><summary>سقفی برای تعداد دعوت وجود دارد؟</summary><p>از این صفحه می‌توانی برای حداکثر ۱۰۰ نفر پیامک دعوت بفرستی. لینک اختصاصی‌ات را هم می‌توانی خودت برای آشنایانت بفرستی و امتیاز همه کسانی که با لینک تو بیایند برایت محاسبه می‌شود.</p></details>
+  <details><summary>چه کسانی را دعوت کنم؟</summary><p>فقط آشنایانت، یعنی خانواده، دوستان و همکارانت را دعوت کن. لطفا برای افراد ناآشنا پیامک نفرست؛ دعوت‌هایی که به شماره‌های ناشناس فرستاده شود ممکن است از کمپین حذف شود.</p></details>
   <details><summary>اگر کسی که دعوت کردم از پیش مشتری پویان باشد چه می‌شود؟</summary><p>در این صورت امتیازی به تو نمی‌رسد. امتیاز دعوت فقط برای مشتریان جدید محاسبه می‌شود.</p></details>
   <details><summary>آیا می‌توانم بیش از یک جایزه ببرم؟</summary><p>خیر. برای اینکه افراد بیشتری برنده شوند، هر نفر حداکثر یک جایزه دریافت می‌کند.</p></details>
   <details><summary>قرعه‌کشی کی و چطور برگزار می‌شود؟</summary><p>قرعه‌کشی حداکثر تا یک هفته پس از پایان کمپین (۳۰ آبان) برگزار می‌شود و نتیجه آن از طریق پیامک و شبکه‌های اجتماعی کارگزاری پویان اعلام خواهد شد.</p></details>
@@ -339,6 +459,8 @@ label.l{font-size:13px;font-weight:700}
     <li>امتیاز فقط برای دعوت از افرادی است که پیش‌تر مشتری کارگزاری نبوده‌اند.</li>
     <li>هر امتیاز معادل یک شانس قرعه‌کشی است.</li>
     <li>هر نفر حداکثر یک جایزه دریافت می‌کند.</li>
+    <li>هر نفر می‌تواند از این صفحه حداکثر ۱۰۰ پیامک دعوت بفرستد.</li>
+    <li>دعوت فقط باید برای آشنایان فرستاده شود؛ ارسال پیامک به افراد ناآشنا مجاز نیست.</li>
   </ul>
 </section>
 
@@ -368,12 +490,15 @@ label.l{font-size:13px;font-weight:700}
    - 09111111111 → مشتری فعلی کارگزاری (مستقیم به صفحه دعوت)
    - 09122222222 (و هر شماره دیگر) → مشتری جدید
    - هر کد ۵ رقمی به‌عنوان OTP پذیرفته می‌شود.
-   - ۵ ثانیه بعد از هر دعوت، فرد دعوت‌شده «ثبت‌نام کامل» می‌شود و ۳۰ امتیاز به دعوت‌کننده می‌رسد.
+   - ۵ ثانیه بعد از هر دعوت، فرد دعوت‌شده «ثبت‌نام کامل» می‌شود و ۶۰ امتیاز (۱۰ + ۵۰) به دعوت‌کننده می‌رسد.
    ========================================================= */
 const CONTRACT_URL = '[CONTRACT_URL]';   // لینک فایل/صفحه قرارداد
 const DEMO_CUSTOMERS = ['09111111111'];
+const SMS_LIMIT = 100;   // سقف پیامک دعوت برای هر نفر
 const DEMO_REG_DELAY = 5000;
-const POINTS = { verified: 10, registered: 20, selfRegister: 100 };
+const POINTS = { verified: 10, registered: 50, selfRegister: 100 };
+const friendPts = i => i.status === 'sent' ? 0 : POINTS.verified + (i.status === 'full' ? POINTS.registered : 0);
+const calcPoints = () => (state.registered ? POINTS.selfRegister : 0) + state.invites.reduce((a, i) => a + friendPts(i), 0);
 const API = {
   wait: (ms = 700) => new Promise(r => setTimeout(r, ms)),
   async sendLoginOtp(phone)            { await this.wait(); return { ok: true }; },
@@ -381,9 +506,9 @@ const API = {
   async requestSejamOtp(nationalId)    { await this.wait(); return { ok: true }; },
   async verifySejamOtp(nationalId, c)  { await this.wait(); return { ok: c.length === 5 }; },
   async requestContractOtp()           { await this.wait(500); return { ok: true }; },
-  async signContract(code)             { await this.wait(); return { ok: code.length === 5, bonus: 100 }; },
+  async signContract(code)             { await this.wait(); return { ok: code.length === 5, bonus: POINTS.selfRegister }; },
   async sendInviteSms(fromPhone, to)   { await this.wait(); return { ok: true }; },
-  async getInvites(phone)              { return { invites: state.invites, points: state.points }; },
+  async getInvites(phone)              { return { invites: state.invites, points: calcPoints() }; },
   async logout()                       { return { ok: true }; }
 };
 
@@ -403,6 +528,7 @@ const app = $('#app');
 
 const ICON = {
   check: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0A6B8A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+  shield: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A5F10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>',
   info: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0A6B8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>',
   logout: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3"/><path d="M10 17l-5-5 5-5"/><path d="M5 12h11"/></svg>',
   user: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>',
@@ -410,7 +536,7 @@ const ICON = {
   sms: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>',
   wa: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.8A9 9 0 1 1 8 19.6z"/><path d="M9 10c.5 2 2 3.5 4 4"/></svg>',
   tg: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/><path d="M9 13l12-9"/></svg>',
-  coin: '<svg class="coin" width="56" height="56" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gc3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3A0"/><stop offset=".6" stop-color="#E2B04A"/><stop offset="1" stop-color="#B07D1E"/></linearGradient></defs><circle cx="32" cy="32" r="28" fill="url(#gc3)"/><circle cx="32" cy="32" r="21" fill="none" stroke="#FFF3CC" stroke-width="1.5" stroke-dasharray="2 3"/></svg>'
+  coin: '<svg class="coin" width="76" height="76" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gc3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3A0"/><stop offset=".6" stop-color="#E2B04A"/><stop offset="1" stop-color="#B07D1E"/></linearGradient></defs><circle cx="32" cy="32" r="28" fill="url(#gc3)"/><circle cx="32" cy="32" r="21" fill="none" stroke="#FFF3CC" stroke-width="1.5" stroke-dasharray="2 3"/></svg>'
 };
 
 /* ---------- state ---------- */
@@ -443,19 +569,19 @@ const toast = msg => { const t = $('#toast'); t.textContent = msg; t.classList.a
 const setErr = msg => { const e = app.querySelector('.err'); if (e) e.textContent = msg; };
 const busy = (btn, on) => { if (!btn) return; btn.disabled = on; if (on) { btn.dataset.label = btn.innerHTML; btn.innerHTML = '<span class="spin"></span>'; } else if (btn.dataset.label) btn.innerHTML = btn.dataset.label; };
 
-const progress = n => `<div class="prog"><div class="row muted" style="font-size:12px"><span>تکمیل ثبت‌نام</span><span>مرحله ${toFa(n)} از ۳</span></div><div class="prog-bar"><i style="width:${Math.round(n / 3 * 100)}%"></i></div></div>`;
+const progress = n => `<div class="prog"><div class="row muted" style="font-size:13px"><span>تکمیل ثبت‌نام</span><span>مرحله ${toFa(n)} از ۳</span></div><div class="prog-bar"><i style="width:${Math.round(n / 3 * 100)}%"></i></div></div>`;
 const otpField = (id, label) => `<label class="l" for="${id}">${label}</label><input id="${id}" class="field otp" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="5" placeholder="- - - - -">`;
 
 /* ---------- screens ---------- */
 const SCREENS = {
   phone: () => `
-    <h2>ورود به کمپین</h2>
-    <p class="lead">شماره موبایلت را وارد کن تا کد تایید برایت پیامک شود.</p>
+    <h2>ورود به قرعه‌کشی</h2>
+    <p class="lead">شماره موبایلت را وارد کن تا کد تایید برایت پیامک شود. اگر پیش‌تر شرکت کرده‌ای، با همین شماره وارد شو تا امتیازت را ببینی.</p>
     <form data-form="phone" novalidate style="display:flex;flex-direction:column;gap:14px">
       <label class="l" for="phone">شماره موبایل</label>
       <input id="phone" class="field" type="tel" inputmode="numeric" autocomplete="tel" maxlength="11" placeholder="09xxxxxxxxx" value="${state.phone}">
       <p class="err" role="alert"></p>
-      <button class="btn" type="submit">دریافت کد تایید</button>
+      <button class="btn" type="submit">شروع و دریافت کد تایید</button>
     </form>`,
 
   otp: () => `
@@ -464,22 +590,22 @@ const SCREENS = {
     <form data-form="otp" novalidate style="display:flex;flex-direction:column;gap:14px">
       ${otpField('otp', 'کد تایید')}
       <p class="err" role="alert"></p>
-      <button class="btn" type="submit">تایید و ورود</button>
+      <button class="btn" type="submit">تایید و ادامه</button>
     </form>
     <div class="row"><button type="button" class="link-btn" data-act="editPhone">ویرایش شماره</button><span id="timer"></span></div>`,
 
   choice: () => `
     <div class="hello"><div class="ok">${ICON.check}</div><h2>وارد شدی!</h2></div>
-    <div><p class="lead" style="margin:0">هنوز مشتری کارگزاری پویان نیستی. یکی را انتخاب کن:</p><p class="muted" style="margin:4px 0 0;font-size:12.5px">(اگر مشتری پویان هستی، فقط دوستات رو دعوت کن)</p></div>
+    <div><p class="lead" style="margin:0">هنوز مشتری کارگزاری پویان نیستی. افتتاح حساب کن و ۱۰۰ امتیاز قرعه‌کشی بگیر.</p><p class="muted" style="margin:4px 0 0;font-size:12.5px">(اگر مشتری پویان هستی، فقط دوستات رو دعوت کن)</p></div>
     <div class="choice">
       <button type="button" class="opt primary" data-act="startReg">
         <span class="ic">${ICON.user}</span>
-        <span><b>تکمیل ثبت‌نام و دریافت ۱۰۰ امتیاز</b><small>با کد ملی و سجام، در چند دقیقه</small></span>
-        <span class="badge-100">+۱۰۰</span>
+        <span><b>تکمیل ثبت‌نام و دریافت ۱۰۰ امتیاز</b><small>با کد ملی و سجام، در نیم دقیقه</small></span>
+        <span class="badge-100"><b>+۱۰۰</b><small>امتیاز</small></span>
       </button>
       <button type="button" class="opt" data-act="toInvite">
         <span class="ic">${ICON.users}</span>
-        <span><b>دعوت دوستان</b><small>با هر دعوت کامل ۳۰ امتیاز بگیر</small></span>
+        <span><b>دعوت دوستان و کسب امتیاز بیشتر</b><small>با هر دعوت کامل ۶۰ امتیاز بگیر</small></span>
       </button>
     </div>`,
 
@@ -505,7 +631,7 @@ const SCREENS = {
       <button class="btn" type="submit">تایید و دریافت اطلاعات</button>
     </form>
     <div class="row"><button type="button" class="link-btn" data-act="toNid">ویرایش کد ملی</button><span id="timer"></span></div>
-    <p class="muted" style="margin:0;font-size:12px">در سجام ثبت‌نام نکرده‌ای؟ <a href="https://profilesejam.csdiran.ir" target="_blank" rel="noopener">ثبت‌نام در سجام</a></p>`,
+    <p class="muted" style="margin:0;font-size:13px">در سجام ثبت‌نام نکرده‌ای؟ <a href="https://profilesejam.csdiran.ir" target="_blank" rel="noopener">ثبت‌نام در سجام</a></p>`,
 
   contract: () => `
     ${progress(3)}
@@ -527,8 +653,8 @@ const SCREENS = {
       <div class="done-ic"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
       <h2 style="font-size:21px;font-weight:900">ثبت‌نامت کامل شد!</h2>
       <div class="plus100">+۱۰۰ امتیاز</div>
-      <p class="lead">۱۰۰ امتیاز (۱۰۰ شانس قرعه‌کشی) به حسابت اضافه شد. حالا دوستانت را دعوت کن و امتیاز بیشتری بگیر.</p>
-      <button type="button" class="btn" data-act="toInvite">دعوت دوستان</button>
+      <p class="lead">۱۰۰ امتیاز به حسابت اضافه شد. حالا دوستانت را دعوت کن و با ثبت‌نام هر کدام ۶۰ امتیاز دیگر بگیر.</p>
+      <button type="button" class="btn" data-act="toInvite">مشاهده امتیاز و دعوت دوستان</button>
     </div>`,
 
   invite: () => {
@@ -536,30 +662,45 @@ const SCREENS = {
     const link = 'https://pouyanbroker.ir/i/' + code;
     const text = encodeURIComponent('سلام! با لینک من در کارگزاری پویان ثبت‌نام کن و خودت هم در قرعه‌کشی سکه بهار آزادی شرکت کن: ' + link);
     const notReg = !state.isCustomer && !state.registered;
+    const smsLeft = Math.max(0, SMS_LIMIT - state.invites.length);
     const list = state.invites.length
       ? `<ul class="inv-list">${state.invites.map(i => `
           <li data-phone="${i.phone}"><div><div class="num">${toFa(mask(i.phone))}</div>
-          <span class="tag ${i.status}">${{ sent: 'پیامک ارسال شد', half: 'شماره تایید شد', full: 'ثبت‌نام کامل' }[i.status]}</span></div>
-          <span class="pts">${i.status === 'sent' ? '<span class="muted" style="font-weight:700">در انتظار</span>' : '+' + toFa(i.status === 'full' ? 30 : 10)}</span></li>`).join('')}</ul>`
+          <span class="tag ${i.status}">${{ sent: 'پیامک ارسال شد', half: 'در انتظار ثبت‌نام', full: 'ثبت‌نام کامل' }[i.status]}</span></div>
+          <span class="pts">${i.status === 'sent' ? '<span class="muted" style="font-weight:700">در انتظار</span>' : '+' + toFa(friendPts(i))}</span></li>`).join('')}</ul>`
       : `<div class="empty">هنوز کسی را دعوت نکرده‌ای.<br>شماره اولین دوستت را بالا وارد کن.</div>`;
+    const fromReg = state.registered ? POINTS.selfRegister : 0;
+    const fromInv = calcPoints() - fromReg;
+    const pending = state.invites.filter(i => i.status !== 'full').length;
+    const last = state.lastSent;
     return `
-      <div class="hello"><div class="ok">${ICON.check}</div><div><h2>وارد شدی!</h2><p class="lead" style="margin:0">حالا با هر دعوت تا ۳۰ امتیاز بگیر.</p></div></div>
-      <div class="score"><div><small>امتیاز تو (شانس قرعه‌کشی)</small><strong>${toFa(state.points)}</strong></div>${ICON.coin}</div>
-      ${notReg ? `<div class="upsell"><p><b>۱۰۰ امتیاز هدیه منتظر توست!</b><br>ثبت‌نامت در کارگزاری را کامل کن.</p><button type="button" data-act="startReg">تکمیل ثبت‌نام</button></div>` : ''}
-      <h3 class="sec-title">دعوت با شماره موبایل</h3>
-      <form data-form="invite" novalidate style="display:flex;flex-direction:column;gap:8px">
-        <label class="l" for="friend" style="font-weight:500;color:var(--muted)">پیامک دعوت با لینک اختصاصی تو برای دوستت ارسال می‌شود.</label>
-        <div class="inv-form"><input id="friend" class="field" type="tel" inputmode="numeric" maxlength="11" placeholder="09xxxxxxxxx"><button class="btn" type="submit">ارسال دعوت</button></div>
-        <p class="err" role="alert"></p>
-      </form>
-      <div class="divider">یا لینکت را به اشتراک بگذار</div>
-      <div class="linkbox"><code>${link.replace('https://', '')}</code><button type="button" data-act="copy" data-link="${link}">کپی لینک</button></div>
-      <div class="share">
-        <a href="https://wa.me/?text=${text}" target="_blank" rel="noopener">${ICON.wa} واتس‌اپ</a>
-        <a href="https://t.me/share/url?url=${encodeURIComponent(link)}&text=${text}" target="_blank" rel="noopener">${ICON.tg} تلگرام</a>
+      <div class="hello"><div class="ok">${ICON.check}</div><div><h2>وارد شدی!</h2><p class="lead" style="margin:0">حالا با هر دعوت تا ۶۰ امتیاز بگیر.</p></div></div>
+      <div class="score">
+        <div class="score-top"><div><small>امتیاز تو (شانس قرعه‌کشی)</small><div class="score-num"><strong>${toFa(calcPoints())}</strong><span class="gain" id="gain"></span></div></div>${ICON.coin}</div>
+        <div class="score-break">
+          <span><i>افتتاح حساب</i><b>${toFa(fromReg)}</b></span>
+          <span><i>دعوت‌ها</i><b>${toFa(fromInv)}</b></span>
+          <span><i>در انتظار ثبت‌نام</i><b>${toFa(pending)} نفر</b></span>
+        </div>
       </div>
+      <section class="invite-box" aria-labelledby="invTitle">
+        <div class="row"><h3 id="invTitle" class="inv-title">دوست بعدی‌ات رو دعوت کن!</h3><span class="sms-left${smsLeft ? '' : ' none'}">${toFa(smsLeft)} از ${toFa(SMS_LIMIT)} پیامک</span></div>
+        <p class="inv-sub">شماره موبایل دوستت رو وارد کن تا لینک اختصاصی ثبت‌نام براش پیامک بشه.</p>
+        <form data-form="invite" novalidate style="display:flex;flex-direction:column;gap:8px">
+          <label class="sr" for="friend">شماره موبایل دوست</label>
+          <div class="inv-form"><input id="friend" class="field" type="tel" inputmode="numeric" maxlength="11" placeholder="09xxxxxxxxx"${smsLeft ? '' : ' disabled'}><button class="btn" type="submit"${smsLeft ? '' : ' disabled'}>ارسال دعوت‌نامه</button></div>
+          ${smsLeft ? '' : '<p class="muted" style="margin:0;font-size:13px">به سقف ۱۰۰ پیامک دعوت رسیده‌ای. هنوز می‌توانی لینک اختصاصی‌ات را برای آشنایانت بفرستی.</p>'}
+          <p class="err" role="alert"></p>
+        </form>
+        ${last ? `<div class="sent-ok" role="status">${ICON.check}<p>دعوت‌نامه برای <b dir="ltr">${toFa(mask(last))}</b> پیامک شد. وقتی شماره‌اش را تایید کند، امتیازت اضافه می‌شود.</p></div>` : ''}
+        <p class="warn-line">${ICON.shield}<span>فقط شماره آشنایانت را وارد کن و برای افراد ناآشنا پیامک نفرست.</span></p>
+      </section>
+      <div class="divider">یا لینکت را برای آشنایانت بفرست</div>
+      <div class="linkbox"><code>${link.replace('https://', '')}</code><button type="button" data-act="copy" data-link="${link}">کپی لینک</button></div>
       <div class="row"><h3 class="sec-title">دعوت‌شده‌ها</h3><span class="muted">${toFa(state.invites.length)} نفر</span></div>
-      ${list}`;
+      ${list}
+      ${notReg ? `<div class="upsell"><p><b>۱۰۰ امتیاز هدیه منتظر توست!</b><br>ثبت‌نامت در کارگزاری را کامل کن.</p><button type="button" data-act="startReg">تکمیل ثبت‌نام</button></div>` : ''}
+      <div class="note">${ICON.info}<p><b>امتیازت همیشه اینجاست.</b> هر وقت خواستی، به همین صفحه بیا و با شماره <b dir="ltr">${toFa(state.phone)}</b> وارد شو. لینک این صفحه در پیامک کمپین هم هست.</p></div>`;
   }
 };
 
@@ -577,6 +718,7 @@ function render() {
 /* ---------- موبایل: با باز شدن کیبورد، فرم بالا بیاید تا دکمه دیده شود ---------- */
 const HEADER_H = 80; // ارتفاع هدر + کمی فاصله
 function bringIntoView(el) {
+  if (window.matchMedia('(min-width: 960px)').matches) return;
   // کل کارت (با عنوان) زیر هدر قرار می‌گیرد؛ فقط در صفحه دعوت که کارت بلند است، خود فرم دعوت
   const target = state.screen === 'invite' ? (el.closest('form') || el) : app;
   const y = target.getBoundingClientRect().top + window.scrollY - HEADER_H;
@@ -650,7 +792,7 @@ app.addEventListener('submit', async e => {
     busy(btn, true); const r = await API.signContract(c); busy(btn, false);
     if (!r.ok) return setErr('کد امضا درست نیست.');
     clearInterval(timerId);
-    go('done', { registered: true, points: state.points + r.bonus });
+    go('done', { registered: true });
   }
 
   if (f === 'invite') {
@@ -658,9 +800,11 @@ app.addEventListener('submit', async e => {
     if (!validPhone(to)) return setErr('شماره موبایل دوستت را درست وارد کن.');
     if (to === state.phone) return setErr('نمی‌توانی خودت را دعوت کنی!');
     if (state.invites.some(i => i.phone === to)) return setErr('این شماره را پیش‌تر دعوت کرده‌ای.');
+    if (state.invites.length >= SMS_LIMIT) return setErr('به سقف ۱۰۰ پیامک دعوت رسیده‌ای.');
     busy(btn, true); const r = await API.sendInviteSms(state.phone, to); busy(btn, false);
     if (!r.ok) return setErr('ارسال پیامک انجام نشد؛ دوباره تلاش کن.');
     state.invites.unshift({ phone: to, status: 'sent', at: Date.now() });
+    state.lastSent = to;
     save(); render(); toast('پیامک دعوت برای ' + toFa(mask(to)) + ' ارسال شد');
     simulateRegistration(state.phone, to);
   }
@@ -673,13 +817,14 @@ function simulateRegistration(owner, friend) {
     if (state.phone !== owner) return;                 // کاربر خارج شده
     const inv = state.invites.find(i => i.phone === friend && i.status !== 'full');
     if (!inv) return;
+    const before = calcPoints();
     inv.status = 'full';
-    const gained = POINTS.verified + POINTS.registered;
-    state.points += gained;
+    const gained = calcPoints() - before;
     save();
     if (state.screen === 'invite') {
       render();
       const s = app.querySelector('.score strong'); if (s) s.classList.add('bump');
+      const g = $('#gain'); if (g) { g.textContent = '+' + toFa(gained); g.classList.add('show'); }
       const li = app.querySelector(`[data-phone="${friend}"]`); if (li) li.classList.add('flash');
     }
     toast(toFa(mask(friend)) + ' ثبت‌نامش را کامل کرد! +' + toFa(gained) + ' امتیاز');

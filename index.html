@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>حلقه طلایی پویان | کارگزاری پویان</title>
-<meta name="description" content="دوستات رو به کارگزاری پویان دعوت کن و توی قرعه‌کشی ۱۰ گرم طلای صندوق آتش شرکت کن.">
+<meta name="description" content="دوستات رو به کارگزاری پویان دعوت کن و توی قرعه‌کشی ۱۰ گرم طلای گلدا شرکت کن.">
 <meta name="theme-color" content="#0D2A5B">
 <!-- ===== Google Tag Manager =====
      فقط شناسه کانتینر را جایگزین GTM-XXXXXXX کنید. تا وقتی جایگزین نشود، چیزی لود نمی‌شود. -->
@@ -354,28 +354,6 @@ label.l{font-size:13px;font-weight:700}
 .hero h1 .h1-a{white-space:nowrap;font-size:clamp(21px,6.6vw,31px)}
 @media (min-width:960px){.hero h1 .h1-a{font-size:inherit}}
 .hero h1 .h1-brand{color:#5EF0E1;font-weight:900;padding:0 2px;background:linear-gradient(transparent 68%,rgba(0,194,179,.35) 68%)}
-
-/* ---- animated flame (صندوق آتش) ---- */
-.flame{display:inline-flex;width:18px;height:24px;flex-shrink:0;filter:drop-shadow(0 0 4px rgba(255,120,20,.55))}
-.flame.big{width:30px;height:40px}
-.flame svg{width:100%;height:100%;overflow:visible;transform-origin:50% 95%;animation:flick 1.1s ease-in-out infinite alternate}
-.f-out{fill:#FF6A13}
-.f-in{fill:#FFD34D;transform-origin:50% 90%;animation:flick-in .6s ease-in-out infinite alternate}
-@keyframes flick{0%{transform:scale(1,1) skewX(0)}35%{transform:scale(.96,1.06) skewX(-3deg)}70%{transform:scale(1.03,.97) skewX(2deg)}100%{transform:scale(.98,1.08) skewX(-1deg)}}
-@keyframes flick-in{0%{transform:scale(1,1)}100%{transform:scale(.9,1.12) translateY(-1px)}}
-.hero h1 .gold-text{display:inline-block}
-.hero h1 .h1-b{white-space:nowrap}
-@media (max-width:520px){.hero h1 .h1-b{font-size:clamp(20px,6.5vw,31px)}.hero h1 .h1-b .gold-text{font-size:1.12em}}
-.hero-prize .hp-title{white-space:normal!important;line-height:1.4}
-@media (min-width:960px){.hero h1 .h1-b .gold-text{font-size:42px}}
-@media (min-width:1280px){.hero h1 .h1-b .gold-text{font-size:46px}}
-.pz-silver{background:#F2F5F9;border:1.5px solid #C9D3DF}
-.pz-silver .pz-ic{background:linear-gradient(135deg,#FFFFFF,#B8C2CF)}
-.pz-silver .pz-ic svg{stroke:#4A5568}
-.pz-silver .pz-val,.pz-silver .pz-txt span{color:#3A4556}
-.pz-silver .pz-count{background:#4A5568;color:#fff}
-.hero-subs li.hs-silver b{color:#E6EBF2}
-.hero-subs li.hs-silver .hs-ic svg{stroke:#E6EBF2}
 </style>
 </head>
 <body>
@@ -394,21 +372,21 @@ label.l{font-size:13px;font-weight:700}
 
 <div class="stage">
 <section class="hero">
-  <h1><span class="h1-a">دوستاتو به <span class="h1-brand">پویان</span> دعوت کن،</span><br><span class="h1-b"><span class="gold-text">۱۰ گرم طلای صندوق آتش</span> ببر</span></h1>
-  <p class="gift-strip"><span class="flame" aria-hidden="true"><svg viewBox="0 0 24 32"><path class="f-out" d="M12 1C13 7 19 10 19 19a7 7 0 0 1-14 0c0-4 2-6 3-8 .5 2.5 2 3.5 3 3.5C11 11 10 6 12 1z"/><path class="f-in" d="M12 13c.6 3 4 4.5 4 8.5a4 4 0 0 1-8 0c0-2 1-3 1.6-4 .3 1.2 1 1.8 1.6 1.8 0-2 .2-4 .8-6.3z"/></svg></span><span><b>هدیه قطعی:</b> یک واحد صندوق طلای آتش با افتتاح حساب موفق</span></p>
+  <h1><span class="h1-a">دوستاتو به <span class="h1-brand">پویان</span> دعوت کن،</span><br><span class="gold-text">۱۰ گرم طلای گلدا</span> ببر</h1>
+  <p class="gift-strip"><svg class="bar-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 19.5h19l-2.6-6.5H5.1z"/><path d="M7 13l1.6-5h6.8L17 13"/></svg><span><b>هدیه قطعی:</b> یک واحد صندوق طلای گلدا با افتتاح حساب موفق</span></p>
 
   <div class="hero-prize">
-    <div class="coin-img hp-coin" role="img" aria-label="۱۰ گرم طلای صندوق آتش"></div>
+    <div class="coin-img hp-coin" role="img" aria-label="۱۰ گرم طلای گلدا"></div>
     <div class="hp-txt">
-      <strong class="hp-title">۱۰ گرم طلای<br>صندوق آتش</strong>
+      <strong class="hp-title">۱۰ گرم طلای گلدا</strong>
     </div>
     <span class="hp-count">جایزه ویژه</span>
   </div>
 
   <ul class="hero-subs" aria-label="جوایز دیگر">
-    <li class="hs-silver"><span class="hs-badge">۱۰۰ برنده</span>
+    <li><span class="hs-badge">۱۰۰ برنده</span>
       <i class="hs-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 19.5h19l-2.6-6.5H5.1z"/><path d="M7 13l1.6-5h6.8L17 13"/><path d="M12 3.2v1.6M17.6 4.6l-1 1.2M6.4 4.6l1 1.2"/></svg></i>
-      <span class="hs-name">نقره</span><b>۱۰۰۰ گرم</b></li>
+      <span class="hs-name">طلا</span><b>۱۰۰۰ میلی‌گرم</b></li>
     <li><span class="hs-badge">۱۰ برنده</span>
       <i class="hs-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12.6V4.5a1 1 0 0 1 1-1h8.1l8 8a1.5 1.5 0 0 1 0 2.1l-7 7a1.5 1.5 0 0 1-2.1 0z"/><circle cx="8.2" cy="8.2" r="1.4"/><path d="M10.5 15.5l5-5"/></svg></i>
       <span class="hs-name">تخفیف کارمزد</span><b>۱۰۰٪ یک‌ساله</b></li>
@@ -425,7 +403,7 @@ label.l{font-size:13px;font-weight:700}
 
 <section class="sec how">
   <h2>چطور امتیاز بگیرم؟</h2>
-  <div class="step step-hl"><span class="n">۱</span><div><b>افتتاح حساب در پویان</b><span class="d">اگه هنوز مشتری پویان نیستی، ثبت‌نامت رو کامل کن و یه واحد صندوق طلای آتش هم هدیه بگیر.<br>اگه پویانی هستی، با شماره پویانیت وارد شو.</span></div><span class="p">+۱۰۰</span></div>
+  <div class="step step-hl"><span class="n">۱</span><div><b>افتتاح حساب در پویان</b><span class="d">اگه هنوز مشتری پویان نیستی، ثبت‌نامت رو کامل کن و یه واحد صندوق طلای گلدا هم هدیه بگیر.<br>اگه پویانی هستی، با شماره پویانیت وارد شو.</span></div><span class="p">+۱۰۰</span></div>
   <div class="step"><span class="n">۲</span><div><b>دعوت موفق</b><span class="d">دوستت با لینکت بیاد و شماره‌ش رو تایید کنه.</span></div><span class="p">+۱۰</span></div>
   <div class="step"><span class="n">۳</span><div><b>افتتاح حساب دوستت</b><span class="d">وقتی ثبت‌نامش کامل بشه؛ خودش هم طلا هدیه می‌گیره.</span></div><span class="p">+۵۰</span></div>
   <div class="step"><span class="n">۴</span><div><b>امتیازت رو ببین</b><span class="d">هر وقت خواستی، با شماره موبایلت همین‌جا وارد شو.</span></div></div>
@@ -435,24 +413,24 @@ label.l{font-size:13px;font-weight:700}
 <section class="sec prizes-sec" id="prizes">
   <article class="sure-gift">
     <span class="sg-tag">بدون قرعه‌کشی</span>
-    <div class="sg-ic"><span class="flame big" aria-hidden="true"><svg viewBox="0 0 24 32"><path class="f-out" d="M12 1C13 7 19 10 19 19a7 7 0 0 1-14 0c0-4 2-6 3-8 .5 2.5 2 3.5 3 3.5C11 11 10 6 12 1z"/><path class="f-in" d="M12 13c.6 3 4 4.5 4 8.5a4 4 0 0 1-8 0c0-2 1-3 1.6-4 .3 1.2 1 1.8 1.6 1.8 0-2 .2-4 .8-6.3z"/></svg></span></div>
-    <div class="sg-txt"><b>یک واحد صندوق طلای آتش</b><span>هدیه قطعی برای هر کسی که ثبت‌نامش رو توی این کمپین کامل کنه.</span></div>
+    <div class="sg-ic"><svg class="bar-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 19.5h19l-2.6-6.5H5.1z"/><path d="M7 13l1.6-5h6.8L17 13"/></svg></div>
+    <div class="sg-txt"><b>یک واحد صندوق طلای گلدا</b><span>هدیه قطعی برای هر کسی که ثبت‌نامش رو توی این کمپین کامل کنه.</span></div>
   </article>
   <h2>جوایز قرعه‌کشی</h2>
   <p class="muted" style="margin:-4px 0 0">مهلت شرکت: ۱ تا ۳۰ آبان · قرعه‌کشی تا یه هفته بعد از تموم شدن کمپین</p>
 
   <article class="pz-main">
     <span class="pz-ribbon">جایزه ویژه</span>
-    <div class="coin-img pz-coin" role="img" aria-label="۱۰ گرم طلای صندوق آتش"></div>
+    <div class="coin-img pz-coin" role="img" aria-label="۱۰ گرم طلای گلدا"></div>
     <div class="pz-main-txt">
-      <strong>۱۰ گرم طلای<br>صندوق آتش</strong>
+      <strong>۱۰ گرم<br>طلای گلدا</strong>
       <span class="pz-count">۱ برنده خوش‌شانس</span>
     </div>
   </article>
 
-  <article class="pz pz-silver">
+  <article class="pz pz-gold">
     <div class="pz-ic"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#7A520F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 19h18l-3-8H6z"/><path d="M7.5 11l1.8-5h5.4l1.8 5"/></svg></div>
-    <div class="pz-txt"><b class="pz-val">۱۰۰۰ <small>گرم</small></b><span>نقره</span></div>
+    <div class="pz-txt"><b class="pz-val">۱۰۰۰ <small>میلی‌گرم</small></b><span>طلا</span></div>
     <span class="pz-count">۱۰۰ برنده</span>
   </article>
 
@@ -480,8 +458,8 @@ label.l{font-size:13px;font-weight:700}
     <div class="faq-list">
   <details><summary>کیا می‌تونن توی کمپین شرکت کنن؟</summary><p>همه! مشتری‌های پویان بعد از ورود مستقیم می‌رن صفحه دعوت. اگه هنوز مشتری پویان نیستی، می‌تونی دوستات رو دعوت کنی یا ثبت‌نامت رو کامل کنی و ۱۰۰ امتیاز هدیه بگیری.</p></details>
   <details><summary>امتیاز چطوری حساب می‌شه؟</summary><p>هر بار دوستت با لینک تو بیاد و شماره‌ش رو تایید کنه، ۱۰ امتیاز می‌گیری. وقتی ثبت‌نامش توی کارگزاری کامل بشه، ۵۰ امتیاز دیگه هم بهت می‌رسه. اگه خودت هنوز مشتری پویان نیستی، با تکمیل ثبت‌نام ۱۰۰ امتیاز هدیه می‌گیری. هر امتیاز یه شانس توی قرعه‌کشی حساب می‌شه.</p></details>
-  <details><summary>هدیه صندوق آتش به همه تعلق می‌گیره؟</summary><p>اگه افتتاح حسابت رو توی کارگزاری پویان کامل کنی، یه واحد صندوق طلای آتش بهت هدیه داده می‌شه.</p></details>
-  <details><summary>هدیه طلا چیه و کی به حسابم می‌رسه؟</summary><p>هر کسی ثبت‌نامش رو توی این کمپین کامل کنه، بدون قرعه‌کشی یه واحد صندوق طلای آتش هدیه می‌گیره. این هدیه تا دو روز کاری بعد از تکمیل ثبت‌نام به حسابت توی کارگزاری پویان واریز می‌شه و می‌تونی نگهش داری یا بفروشیش.</p></details>
+  <details><summary>گلدا به همه تعلق می‌گیره؟</summary><p>اگه افتتاح حسابت رو توی کارگزاری پویان کامل کنی، یه واحد صندوق طلای گلدا بهت هدیه داده می‌شه.</p></details>
+  <details><summary>هدیه طلا چیه و کی به حسابم می‌رسه؟</summary><p>هر کسی ثبت‌نامش رو توی این کمپین کامل کنه، بدون قرعه‌کشی یه واحد صندوق طلای گلدا هدیه می‌گیره. این هدیه تا دو روز کاری بعد از تکمیل ثبت‌نام به حسابت توی کارگزاری پویان واریز می‌شه و می‌تونی نگهش داری یا بفروشیش.</p></details>
   <details><summary>اعتبار خرید چطوری داده می‌شه؟</summary><p>مبلغ این جایزه تا ۱۰ میلیارده. اعتبار در نهایت بر اساس تضامین و شرایط اعطای اعتبار تخصیص داده خواهد شد.</p></details>
   <details><summary>امتیازم رو کجا ببینم؟</summary><p>هر وقت خواستی، بیا همین صفحه و با شماره موبایلت وارد شو. امتیازت و وضعیت همه دوستایی که دعوت کردی همین‌جا نشون داده می‌شه. لینک این صفحه توی پیامک کمپین هم هست.</p></details>
   <details><summary>چطوری دوستام رو دعوت کنم؟</summary><p>توی صفحه دعوت، شماره موبایل دوستت رو بزن تا پیامک دعوت براش بره. لینک اختصاصیت رو هم می‌تونی کپی کنی و براش بفرستی.</p></details>
@@ -503,7 +481,7 @@ label.l{font-size:13px;font-weight:700}
     <li>امتیاز فقط برای دعوت از کسایی حساب می‌شه که قبلا مشتری کارگزاری نبودن.</li>
     <li>هر امتیاز یعنی یه شانس قرعه‌کشی.</li>
     <li>هر نفر حداکثر یه جایزه می‌بره.</li>
-    <li>هدیه صندوق طلای آتش فقط یه بار و بعد از تکمیل ثبت‌نام توی این کمپین به هر نفر داده می‌شه و جدا از جایزه‌های قرعه‌کشیه.</li>
+    <li>هدیه صندوق طلای گلدا فقط یه بار و بعد از تکمیل ثبت‌نام توی این کمپین به هر نفر داده می‌شه و جدا از جایزه‌های قرعه‌کشیه.</li>
     <li>هر نفر از این صفحه حداکثر ۱۰۰ پیامک دعوت می‌تونه بفرسته.</li>
     <li>دعوت فقط باید برای آشناها فرستاده بشه؛ فرستادن پیامک به آدمای ناآشنا مجاز نیست.</li>
   </ul>
@@ -641,11 +619,11 @@ const SCREENS = {
 
   choice: () => `
     <div class="hello"><div class="ok">${ICON.check}</div><h2>وارد شدی!</h2></div>
-    <div><p class="lead" style="margin:0">هنوز مشتری کارگزاری پویان نیستی. افتتاح حساب کن، ۱۰۰ امتیاز قرعه‌کشی بگیر و یه واحد صندوق طلای آتش هدیه ببر.</p><p class="muted" style="margin:4px 0 0;font-size:12.5px">(اگه مشتری پویان هستی، فقط دوستات رو دعوت کن)</p></div>
+    <div><p class="lead" style="margin:0">هنوز مشتری کارگزاری پویان نیستی. افتتاح حساب کن، ۱۰۰ امتیاز قرعه‌کشی بگیر و یه واحد صندوق طلای گلدا هدیه ببر.</p><p class="muted" style="margin:4px 0 0;font-size:12.5px">(اگه مشتری پویان هستی، فقط دوستات رو دعوت کن)</p></div>
     <div class="choice">
       <button type="button" class="opt primary" data-act="startReg">
         <span class="ic">${ICON.user}</span>
-        <span><b>تکمیل ثبت‌نام و دریافت ۱۰۰ امتیاز</b><small class="gift-line">+ یه واحد صندوق طلای آتش هدیه</small><small>با کد ملی و سجام، توی نیم دقیقه</small></span>
+        <span><b>تکمیل ثبت‌نام و دریافت ۱۰۰ امتیاز</b><small class="gift-line">+ یه واحد صندوق طلای گلدا هدیه</small><small>با کد ملی و سجام، توی نیم دقیقه</small></span>
         <span class="badge-100"><b>+۱۰۰</b><small>امتیاز</small></span>
       </button>
       <button type="button" class="opt" data-act="toInvite">
@@ -698,7 +676,7 @@ const SCREENS = {
       <div class="done-ic"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
       <h2 style="font-size:21px;font-weight:900">ثبت‌نامت کامل شد!</h2>
       <div class="plus100">+۱۰۰ امتیاز</div>
-      <div class="gift-card"><svg class="bar-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 19.5h19l-2.6-6.5H5.1z"/><path d="M7 13l1.6-5h6.8L17 13"/></svg><div><b>یک واحد صندوق طلای آتش</b><span>هدیه‌ت تا دو روز کاری به حسابت توی پویان واریز می‌شه.</span></div></div>
+      <div class="gift-card"><svg class="bar-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 19.5h19l-2.6-6.5H5.1z"/><path d="M7 13l1.6-5h6.8L17 13"/></svg><div><b>یک واحد صندوق طلای گلدا</b><span>هدیه‌ت تا دو روز کاری به حسابت توی پویان واریز می‌شه.</span></div></div>
       <div class="per-invite"><span>هر دعوت موفق</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"/><path d="M11 6l-6 6 6 6"/></svg><b>۶۰ امتیاز</b></div>
       <p class="go-down">برای شرکت در قرعه‌کشی از دکمه زیر دوستات رو دعوت کن<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="M6 13l6 6 6-6"/></svg></p>
       <button type="button" class="btn" data-act="toInvite">دعوت دوستان</button>
@@ -707,7 +685,7 @@ const SCREENS = {
   invite: () => {
     const code = 'PY' + state.phone.slice(-6);
     const link = 'https://pouyanbroker.ir/i/' + code;
-    const text = encodeURIComponent('سلام! با لینک من توی کارگزاری پویان ثبت‌نام کن؛ یه واحد صندوق طلای آتش هدیه می‌گیری و توی قرعه‌کشی ۱۰ گرم طلای صندوق آتش هم شرکت می‌کنی: ' + link);
+    const text = encodeURIComponent('سلام! با لینک من توی کارگزاری پویان ثبت‌نام کن؛ یه واحد صندوق طلای گلدا هدیه می‌گیری و توی قرعه‌کشی ۱۰ گرم طلای گلدا هم شرکت می‌کنی: ' + link);
     const notReg = !state.isCustomer && !state.registered;
     const smsLeft = Math.max(0, SMS_LIMIT - state.invites.length);
     const list = state.invites.length
@@ -719,7 +697,7 @@ const SCREENS = {
     return `
       <div class="hello"><div class="ok">${ICON.check}</div><div><h2>وارد شدی!</h2><p class="lead" style="margin:0">حالا با هر دعوت تا ۶۰ امتیاز بگیر.</p></div></div>
       <div class="score"><div><small>امتیاز تو (شانس قرعه‌کشی)</small><strong>${toFa(calcPoints())}</strong></div>${ICON.coin}</div>
-      ${notReg ? `<div class="upsell"><p><b>۱۰۰ امتیاز + طلای هدیه منتظرته!</b><br>ثبت‌نامت رو کامل کن و یه واحد صندوق طلای آتش بگیر.</p><button type="button" data-act="startReg">تکمیل ثبت‌نام</button></div>` : ''}
+      ${notReg ? `<div class="upsell"><p><b>۱۰۰ امتیاز + طلای هدیه منتظرته!</b><br>ثبت‌نامت رو کامل کن و یه واحد صندوق طلای گلدا بگیر.</p><button type="button" data-act="startReg">تکمیل ثبت‌نام</button></div>` : ''}
       <div class="note">${ICON.info}<p><b>امتیازت همیشه همین‌جاست.</b> هر وقت خواستی، دوباره بیا همین صفحه و با شماره <b dir="ltr">${toFa(state.phone)}</b> وارد شو تا امتیاز و وضعیت دوستات رو ببینی. لینک این صفحه توی پیامک کمپین هم هست.</p></div>
       <div class="row"><h3 class="sec-title">دعوت با شماره موبایل</h3><span class="sms-left${smsLeft ? '' : ' none'}">${toFa(smsLeft)} پیامک از ${toFa(SMS_LIMIT)} باقی مونده</span></div>
       <div class="warn">${ICON.shield}<p><b>فقط آشناهات رو دعوت کن.</b> شماره خانواده، دوستا و همکارات رو بزن و برای آدمای ناآشنا پیامک نفرست.</p></div>
